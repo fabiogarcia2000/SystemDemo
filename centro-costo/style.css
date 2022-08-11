@@ -1,0 +1,53 @@
+.centro_costo{
+    width: auto;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.centro_costo h1{
+    color: #3c93b0; 
+    text-align: center;   
+}
+
+label{
+    display: block;
+    margin: 15px auto 5px auto;
+}
+
+input, select{
+    display: block;
+    width: 100%;
+    font-size: 11pt;
+    padding: 5px;
+    border: 1px solid #85929e;
+    border-radius: 5px;
+}
+
+
+hr{
+    border: 0;
+    background: #CCC;
+    height: 1px;
+    margin: 10px 0;
+    display: block;
+}
+
+#btns{  
+    margin: 15px auto;
+}
+
+#a1{
+    color: blue;
+}
+
+#a2{
+    color: red;
+}
+
+.btn_new{
+    display: inline-block;
+}
+
+    
+
+
