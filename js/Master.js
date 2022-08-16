@@ -25,10 +25,10 @@ function AgregarMenu(){
             '<li><a href="../forms/impuesto_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Impuestos</a></li>'+
             '<li><a href="../forms/descuento_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Descuentos</a></li>'+
 			'<li><a href="../forms/metodo_pago_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Metodo de pago</a></li>'+
-			'<li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Modo Pedido</a></li>'+
+			'<li><a href="../forms/Modo_pedido_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Modo Pedido</a></li>'+
 			'<li><a href="../forms/permiso-sar.html" class="link-dark d-inline-flex text-decoration-none rounded">Permisos SAR</a></li>'+
-			'<li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">POS</a></li>'+
-			'<li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Mesas</a></li>'+
+			'<li><a hef="../forms/POS_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">POS</a></li>'+
+			'<li><a href="../forms/Mesas_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Mesas</a></li>'+
 		  '</ul>'+
         '</div>'+
       '</li>'+
