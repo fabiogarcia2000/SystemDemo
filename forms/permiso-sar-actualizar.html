@@ -6,13 +6,13 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.101.0">
-    <title>Lista Materiales</title>
+    <title>Permiso SAR</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="../js/Master.js"></script>
-  <link href="../css/sidebars.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/Master.js"></script>
+    <link href="../css/sidebars.css" rel="stylesheet">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sidebars/">
-    <link rel="stylesheet" href="../css/style-materiales.css">
+    <link rel="stylesheet" href="../css/style-permiso-sar.css">
 
     
 
@@ -138,48 +138,47 @@
     <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
   </symbol>
 </svg>
-
-  <div class="flex-shrink-0 p-3 bg-white" id="Cabecera">
+<div class="flex-shrink-0 p-3 bg-white" id="Cabecera">
         
-  </div>
+</div>
 <main class="d-flex flex-nowrap">
-  
   <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;" id="Menu">
         
   </div>
 
   <div class="b-example-divider b-example-vr"></div>
   <div style="width: 150px;"></div>   	
-
 <!--Contenido-->
-  <div class="lista_materiales">
-    <h3>Agregar Materiales</h3>
+  <div class="form_register">
+    <h3>Actualizar Permiso SAR</h3>
     <hr id="hr1">
     <form action="" method="post">
-      <label for="impuesto" id="impuesto">Impuesto:</label>
-      <select name="impuesto" id="impuesto">
-        <option value="1">15%</option>
-        <option value="2">18%</option>
+      <label for="sucursal" id="labels">Sucursal</label>
+      <select name="sucursal" id="sucursal">
+        <option value="1">Sucursal 1</option>
+        <option value="2">Sucursal 2</option>
       </select>
-      <label for="categoria" id="categoria">Categoria:</label>
-      <select name="categoria" id="categoria">
-        <option value="1">1</option>
-        <option value="2">2</option>
+      <label for="cai" id="labels">CAI:</label>
+      <input type="text" name="cai" id="cai" placeholder="3bd6a-0195f4-b34baa-8b7d13-37791a-2d" >
+      <label for="sucursal_sar" id="labels">Sucursal SAR:</label>
+      <input type="text" name="sucursal_sar" id="sucursal_sar" placeholder="000-007-01-" >
+      <label for="terminal_sar" id="labels">Terminal SAR:</label>
+      <input type="text" name="terminal_sar" id="terminal_sar" placeholder="000-007-01-" >
+      <label for="tipo_doc" id="labels">Tipo de Documento:</label>
+      <select name="tipo_doc" id="tipo_doc">
+        <option value="1">Factura</option>
       </select>
-      <label for="unidad_medida" id="unidad_medida">Unidad de Medida:</label>
-      <input type="text" name="unidad_medida" id="unidad_medida" placeholder="" >
+      <label for="inicial" id="labels">Correlativo Inicial:</label>
+      <input type="text" name="inicial" id="inicial" placeholder="00000056">
+      <label for="final" id="labels">Correlativo Final:</label>
+      <input type="text" name="final" id="final" placeholder="00000065">
+      <label for="actual" id="labels">Correlativo Actual:</label>
+      <input type="text" name="final" id="final" placeholder="00000060">
+      <label for="emision" id="labels">Fecha Límite de Emisión:</label>
+      <input type="date" name="emision" id="emision" placeholder="08/04/2022" >
       
-      <label for="socio_negocio" id="socio_negocio">Socio de Negocio:</label>
-      <select name="socio_negocio" id="socio_negocio">
-        <option value="1">Cliente</option>
-        <option value="2">Proveedor</option>
-      </select>
-
-      <label for="cantidad" id="cantidad">Cantidad:</label>
-      <input type="number" name="cantidad" id="cantidad" placeholder="" >
-            
-      <a href="lista-materiales.html"><button type="button" class="btn btn-success" id="btns">Guardar</button></a>
-      <a href="lista-materiales.html"><button type="button" class="btn btn-danger" id="btns">Cancelar</button></a>
+      <a href="permiso-sar.html"><button type="button" class="btn btn-success" id="btns">Guardar</button></a>
+      <a href="permiso-sar.html"><button type="button" class="btn btn-danger" id="btns">Cancelar</button></a>
     
 
     </form>
