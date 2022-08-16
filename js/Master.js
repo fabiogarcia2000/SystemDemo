@@ -27,7 +27,7 @@ function AgregarMenu(){
 			'<li><a href="../forms/metodo_pago_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Metodo de pago</a></li>'+
 			'<li><a href="../forms/Modo_pedido_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Modo Pedido</a></li>'+
 			'<li><a href="../forms/permiso-sar.html" class="link-dark d-inline-flex text-decoration-none rounded">Permisos SAR</a></li>'+
-			'<li><a hef="../forms/POS_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">POS</a></li>'+
+			'<li><a href="../forms/POS_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">POS</a></li>'+
 			'<li><a href="../forms/Mesas_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Mesas</a></li>'+
 		  '</ul>'+
         '</div>'+
@@ -51,11 +51,13 @@ function AgregarMenu(){
         '</button>'+
         '<div class="collapse show" id="orders-collapse">'+
           '<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">'+
-            '<li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Venta Resumen</a></li>'+
-			'<li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Venta Cajero</a></li>'+
-            '<li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Venta por Producto</a></li>'+
-            '<li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Venta por modo de pedido</a></li>'+
-            '<li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Venta por categoria</a></li>'+
+            '<li><a href="../forms/reporte_venta_resumen.html" class="link-dark d-inline-flex text-decoration-none rounded">Venta Resumen</a></li>'+
+		      	'<li><a href="../forms/reporte_venta_cajero.html" class="link-dark d-inline-flex text-decoration-none rounded">Venta Cajero</a></li>'+
+            '<li><a href="../forms/reporte_venta_producto.html" class="link-dark d-inline-flex text-decoration-none rounded">Venta por Producto</a></li>'+
+            '<li><a href="../forms/reporte_venta_modo_pedido.html" class="link-dark d-inline-flex text-decoration-none rounded">Venta por modo de pedido</a></li>'+
+            '<li><a href="../forms/reporte_venta_categoria.html" class="link-dark d-inline-flex text-decoration-none rounded">Venta por categoria</a></li>'+
+            '<li><a href="../forms/reporte_venta_categoria.html" class="link-dark d-inline-flex text-decoration-none rounded">Compras</a></li>'+
+            '<li><a href="../forms/reporte_venta_categoria.html" class="link-dark d-inline-flex text-decoration-none rounded">Inventario por sucursal</a></li>'+
           '</ul>'+
         '</div>'+
       '</li>'+
