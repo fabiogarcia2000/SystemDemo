@@ -29,11 +29,11 @@ body{
     margin: 30px 0;;
 
 }
-.formulario form{
+.formulario .inputs{
     padding: 0 40px;
     box-sizing: border-box;
 }
-form .username{
+.inputs .username{
     position: relative;
     border-bottom: 2px solid rgba(27, 2, 2, 0.315);
     margin: 30px 0;
