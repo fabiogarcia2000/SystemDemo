@@ -39,9 +39,10 @@ function AgregarMenu(){
         '<div class="collapse show" id="dashboard-collapse">'+
           '<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">'+
             '<li><a href="../forms/centro_costo.html" class="link-dark d-inline-flex text-decoration-none rounded">Centro de Costo</a></li>'+
-			'<li><a href="../forms/articulo_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Aritculos</a></li>'+
+			      '<li><a href="../forms/articulo_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Aritculos</a></li>'+
             '<li><a href="../forms/lista-materiales.html" class="link-dark d-inline-flex text-decoration-none rounded">Lista de Materiales</a></li>'+
             '<li><a href="../forms/Unidades_medida_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Unidades de Medida</a></li>'+
+            '<li><a href="../forms/ingresar_mercaderia.html" class="link-dark d-inline-flex text-decoration-none rounded">Ingreso de Mercaderia</a></li>'+
 		'</ul>'+
         '</div>'+
       '</li>'+
