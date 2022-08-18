@@ -6,81 +6,20 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.101.0">
-    <title>Centro Costos</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Centro Costo</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../js/Master.js"></script>
-    <link href="../css/sidebars.css" rel="stylesheet">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sidebars/">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/style-centro-costo.css">
-
-    
-
-    
-
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-    </style>
-
     
     <!-- Custom styles for this template -->
-    <link href="sidebars.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+	<link href="../css/form-validation.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	
   </head>
   <body>
-    
+
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="bootstrap" viewBox="0 0 118 94">
     <title>Bootstrap</title>
@@ -143,42 +82,82 @@
         
 </div>
 <main class="d-flex flex-nowrap">
-  <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;" id="Menu">
+     <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;" id="Menu">
         
+    </div>
+	<div class="b-example-divider b-example-vr"></div>
+  <div style="width: 150px;"></div>
+	    
+  <div class="row g-12">
+      
+    <div class="col">
+      <h4 class="mb-3">Modificar Centro Costo</h4>
+      <form class="needs-validation" novalidate>
+        <div class="row g-3">
+
+          <div class="col-sm-6">
+            <label for="country" class="form-label">Centro Costo</label>
+            <select class="form-select" id="country" required>
+              <option value="">Elegir...</option>
+              <option value="1">Centro 1</option>
+              <option value="2">Centro 2</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid country.
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="lastName" class="form-label">Descripción</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Valid last name is required.
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="same-address">
+          <label class="form-check-label" for="same-address">Activo</label>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="row gy-3">
+
+        </div>
+
+
+        <a href="centro_costo.html">
+          <button class="btn btn-success" type="button">Guardar</button>
+        </a>
+
+        <a href="centro_costo.html">
+          <button class="btn btn btn-danger" type="button">Cancelar</button>
+        </a>
+  
+  </form>
+    </div>
   </div>
 
-  <div class="b-example-divider b-example-vr"></div>
-  <div style="width: 150px;"></div>   	
 
-<!--Contenido-->
-  <div class="centro_costo">
-    <h3>Actualizar Centro de Costos</h3>
-   
-    <hr>
-    <form action="" method="post">
-      <label for="centro_costo" id="centro_costo">Centro Costo:</label>
-      <input type="text" name="centro_costo" id="centro_costo" placeholder="" >
-      <label for="description" id="description">Descripción:</label>
-      <input type="text" name="description" id="description" placeholder="" >
+<div id="Pie">
 
-      <a href="centro_costo.html"><button type="button" class="btn btn-success" id="btns">Guardar</button></a>
-      <a href="centro_costo.html"><button type="button" class="btn btn-danger" id="btns">Cancelar</button></a>
-    
-
-    </form>
   </div>
 
+  
 
-
-
- <!--Fin Contenido-->
 </main>
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-      <script src="sidebars.js"></script>
-	  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+
+    <script src="../js/sidebars.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
