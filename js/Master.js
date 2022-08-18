@@ -20,7 +20,7 @@ function AgregarMenu(){
         '<div class="collapse show" id="home-collapse">'+
           '<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">'+
             '<li><a href="../forms/sucursal_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Sucursales</a></li>'+
-			'<li><a href="../forms/articulo_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Aritculos</a></li>'+
+			'<li><a href="../forms/articulo_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Articulos</a></li>'+
 			'<li><a href="../forms/categoria_listar.html" class="link-dark d-inline-flex text-decoration-none rounded">Categorias</a></li>'+
             '<li><a href="../forms/impuesto_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Impuestos</a></li>'+
             '<li><a href="../forms/descuento_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Descuentos</a></li>'+
