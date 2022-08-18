@@ -92,7 +92,7 @@ function AgregarHeader(){
     '<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #e43e3e ;">'+
         '<div class="container-fluid">'+
           '<a class="navbar-brand" href="#">'+
-            '<img src="../images/burridogs_logo.png" alt="" width="120" height="60" class="d-inline-block align-text-mid">'+
+            '<img src="../images/burridogs logo.png" alt="" width="120" height="60" class="d-inline-block align-text-mid">'+
             'Burridogs'+
           '</a>'+
           '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">'+
