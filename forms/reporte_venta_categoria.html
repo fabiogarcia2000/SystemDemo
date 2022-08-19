@@ -89,7 +89,7 @@
         <div class="consulta">
             <div class="row">
                 <div class="col-6">
-                    <h3>Reporte de Venta por Categoria</h3>
+                    <h3>Venta por Categoria</h3>
                 </div>
             </div>
         </div>
@@ -120,14 +120,6 @@
                 <input type="date" id="start" name="trip-start"
                     value="2022-08-05"
                     min="2022-01-01" max="2022-12-31">
-                
-                    
-				<button type="button" class="btn btn-success">Generar Reporte</button>
-
-                <button type="button" class="btn btn-secondary">Exportar Excel</button>
-
-                <button type="button" class="btn btn-secondary">Exportar PDF</button>
-
             </div>
 
 
@@ -153,7 +145,7 @@
                             
                             <tr>
                                 <th>CATEGORIA</th>
-                                <th>ACUMULADO</th>
+                                <th>TOTAL</th>
                             </tr>
 
                             <tr>
@@ -183,12 +175,7 @@
                                     3,500.00
                                 </td>
                             </tr>
-
-                            <tr>
-                                <th >TOTAL</th>
-                                <th>8,100.00</th>
-                            </tr>
-
+                          
                         </tr>
                     </thead>
                     <tbody class="socios">
@@ -196,6 +183,16 @@
 
                     </tbody>
                 </table>
+               
+                <a href="../forms/Reporte_venta_cat_generar"
+				<button type="button" class="btn btn-success">Generar Reporte</button>
+				</a>
+				<a href="../forms/Reporte_venta_cat_Excel"
+                <button type="button" class="btn btn-secondary">Exportar Excel</button>
+				</a>
+				<a href="../forms/Reporte_venta_cat_PDF"
+				<button type="button" class="btn btn-secondary">Exportar PDF</button>
+				</a>
 
             </div>
 
