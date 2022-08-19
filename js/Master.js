@@ -3,6 +3,17 @@ $(document).ready(function(){
     AgregarMenu();
     
     AgregarHeader();
+
+    $('.click').click(function(){
+      $('.popup_box').css("display", "block");
+    });
+    $('.btn1').click(function(){
+      $('.popup_box').css("display", "none");
+    });
+    $('.btn2').click(function(){
+      $('.popup_box').css("display", "none");
+      alert("Registro Borrado Permanentemente.");
+    });
 });
 
 function AgregarMenu(){
@@ -86,6 +97,19 @@ function AgregarMenu(){
 function AgregarFooter(){
     var menu = document.getElementById("Pie");
     menu.innerHTML = '<div></div>'
+}
+
+function PupUp(){
+  $('.click').click(function(){
+    $('.popup_box').css("display", "block");
+  });
+  $('.btn1').click(function(){
+    $('.popup_box').css("display", "none");
+  });
+  $('.btn2').click(function(){
+    $('.popup_box').css("display", "none");
+    alert("Registro Borrado Permanentemente.");
+  });
 }
 
 function AgregarHeader(){
