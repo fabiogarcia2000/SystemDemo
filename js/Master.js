@@ -31,13 +31,13 @@ function AgregarMenu(){
         '<div class="collapse show" id="home-collapse">'+
           '<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">'+
             '<li><a href="../forms/sucursal_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Sucursales</a></li>'+
-			'<li><a href="../forms/articulo_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Articulos</a></li>'+
+			'<li><a href="../forms/articulo_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Artículos</a></li>'+
 			'<li><a href="../forms/categoria_listar.html" class="link-dark d-inline-flex text-decoration-none rounded">Categorias</a></li>'+
             '<li><a href="../forms/impuesto_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Impuestos</a></li>'+
             '<li><a href="../forms/descuento_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Descuentos</a></li>'+
 			'<li><a href="../forms/metodo_pago_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Metodo de pago</a></li>'+
 			'<li><a href="../forms/Modo_pedido_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Modo Pedido</a></li>'+
-			'<li><a href="../forms/permiso-sar.html" class="link-dark d-inline-flex text-decoration-none rounded">Permisos SAR</a></li>'+
+			'<li><a href="../forms/permiso-sar.html" class="link-dark d-inline-flex text-decoration-none rounded">Talonario SAR</a></li>'+
 			'<li><a href="../forms/POS_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">POS</a></li>'+
 			'<li><a href="../forms/Mesas_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Mesas</a></li>'+
 		  '</ul>'+
@@ -50,11 +50,11 @@ function AgregarMenu(){
         '<div class="collapse show" id="dashboard-collapse">'+
           '<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">'+
             '<li><a href="../forms/centro_costo.html" class="link-dark d-inline-flex text-decoration-none rounded">Centro de Costo</a></li>'+
-			      '<li><a href="../forms/articulo_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Aritculos</a></li>'+
+			      '<li><a href="../forms/articulo_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Artículos</a></li>'+
             '<li><a href="../forms/lista-materiales.html" class="link-dark d-inline-flex text-decoration-none rounded">Lista de Materiales</a></li>'+
             '<li><a href="../forms/Unidades_medida_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Unidades de Medida</a></li>'+
-            '<li><a href="../forms/ingresar_mercaderia.html" class="link-dark d-inline-flex text-decoration-none rounded">Ingreso de Mercaderia</a></li>'+
-            '<li><a href="../forms/salida_mercaderia.html" class="link-dark d-inline-flex text-decoration-none rounded">Salida de Mercaderia</a></li>'+
+            '<li><a href="../forms/lista_mercaderia.html" class="link-dark d-inline-flex text-decoration-none rounded">Mercadería</a></li>'+
+  
 		'</ul>'+
         '</div>'+
       '</li>'+
