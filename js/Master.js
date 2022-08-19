@@ -54,6 +54,7 @@ function AgregarMenu(){
             '<li><a href="../forms/lista-materiales.html" class="link-dark d-inline-flex text-decoration-none rounded">Lista de Materiales</a></li>'+
             '<li><a href="../forms/Unidades_medida_lista.html" class="link-dark d-inline-flex text-decoration-none rounded">Unidades de Medida</a></li>'+
             '<li><a href="../forms/ingresar_mercaderia.html" class="link-dark d-inline-flex text-decoration-none rounded">Ingreso de Mercaderia</a></li>'+
+            '<li><a href="../forms/salida_mercaderia.html" class="link-dark d-inline-flex text-decoration-none rounded">Salida de Mercaderia</a></li>'+
 		'</ul>'+
         '</div>'+
       '</li>'+
