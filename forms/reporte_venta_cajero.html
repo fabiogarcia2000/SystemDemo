@@ -15,7 +15,6 @@
     <!-- Custom styles for this template -->
     <link href="../css/sidebars.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
   </head>
   <body>
 
@@ -87,271 +86,86 @@
 	<div class="b-example-divider b-example-vr"></div>
 	    <div class="container">
         <div class="consulta">
-            <div class="row">
-                <div class="col-6">
-                    <h3>Reporte de Venta por Cajero</h3>
-                </div>
-            </div>
-        </div>
-        <div class="box-body">
-            <div class="table table-reponsive">
-                
-
-                <div class="col-md-5">
-                    <label for="country" class="form-label">Cajero</label>
-                    <select class="form-select" id="country" required>
-                      <option value="">Elegir...</option>
-                      <option>Cajero 1</option>
-                    </select>
-                    <div class="invalid-feedback">
-                      Please select a valid country.
-                    </div>
-                  </div>
-
-
+          <div class="row">
+            <div class="col-6">
+                <h3>VENTAS POR CAJERO</h3>
                 <label for="start">Fecha Inicio:</label>
-
-                <input type="date" id="start" name="trip-start"
-                    value="2022-08-01"
-                    min="2022-01-01" max="2022-12-31">
-
+    
+            <input type="date" id="start" name="trip-start"
+                value="2022-08-01"
+                min="2022-01-01" max="2022-12-31">
                 <label for="start">Fecha Fin:</label>
-
+    
                 <input type="date" id="start" name="trip-start"
                     value="2022-08-05"
                     min="2022-01-01" max="2022-12-31">
-                
-                    
-				        <button type="button" class="btn btn-success">Generar Reporte</button>
-
-                <button type="button" class="btn btn-secondary">Exportar Excel</button>
-
-                <button type="button" class="btn btn-secondary">Exportar PDF</button>
-
             </div>
-
-
-            
-          <div id="content">
-
-            <div>
-
-                <div align="center">
-                    <label for="start">REPORTE DE VENTA CAJERO</label>
-                </div>
-
-
-                <div align="center">
-                    <label for="start">SUCURSAL: PRINCIPAL</label>
-                </div>
-
-
-                <div align="center">
-                    <label for="start">DEL 01/08/2022 05/08/2022</label>
-                </div>
-
-                <div>
-                  <label for=""></label>
-                </div>
-
-            </div>
-
-
-
-
-
-            <div>
-
-              <div align="center">
-                  <label for="start">*** CORTE DEL EMPLEADO ***</label>
-              </div>
-
-
-              <div>
-                <label for="start">FECHA: 01/08/2022</label>
-              </div>
-
-              <div>
-                  <label for="start">CAJERO: 1</label>
-              </div>
-
-              <div>
-                <label for="start">TURNO: 1</label>
-              </div>
-
-            </div>
-
-
-            <div>
-
-              <div align="center">
-                  <label for="start">*** VENTAS ***</label>
-              </div>
-
-
-              <div>
-                  <label for="start">HOTDOGS:</label>
-              </div>
-
-              <div>
-                <label for="start">BEBIDAS:</label>
-              </div>
-
-              <div>
-                <label for="start"></label>
-              </div>
-
-              <div>
-                <label for="start">TOTAL</label>
-              </div>
-
-            </div>
-
-
-              
-          
-
-            <div>
-
-              <div align="center">
-                  <label for="start">*** IMPUESTOS ***</label>
-              </div>
-
-
-              <div>
-                <label for="start">INCLUSIVO:</label>
-              </div>
-
-
-              <div>
-                <label for="start"></label>
-              </div>
-
-
-              <div>
-                <label for="start">ISV 15%</label>
-              </div>
-
-              <div>
-                <label for="start"></label>
-              </div>
-
-              <div>
-                <label for="start">TOTAL</label>
-              </div>
-
-            </div>
-
-
-
-            <div>
-
-              <div align="center">
-                  <label for="start">*** DESCUENTOS ***</label>
-              </div>
-
-              <div>
-                <label for="start">TERCERA EDAD:</label>
-              </div>
-
-              <div>
-                <label for="start">TOTALES:</label>
-              </div>
-
-              <div>
-                <label for="start"></label>
-              </div>
-
-              <div>
-                <label for="start"></label>
-              </div>
-
-              <div>
-                <label for="start">VENTAS BRUTAS:</label>
-              </div>
-
-              <div>
-                <label for="start"></label>
-              </div>
-
-            </div>
-
-
-
-            <div>
-
-              <div align="center">
-                  <label for="start">*** PAGOS ***</label>
-              </div>
-
-
-              <div>
-                  <label for="start">EFECTIVO:</label>
-              </div>
-
-              <div>
-                <label for="start">VISA:</label>
-              </div>
-
-              <div>
-                <label for="start">DELIVERY:</label>
-              </div>
-
-              <div>
-                <label for="start">PAGOS TOTALES:</label>
-              </div>
-
-              <div>
-                <label for="start"></label>
-              </div>
-
-              <div>
-                <label for="start">EFECTIVO DEBIDO:</label>
-              </div>
-
-              <div>
-                <label for="start"></label>
-              </div>
-
-              <div>
-                <label for="start"></label>
-              </div>
-
-              <div>
-                <label for="start">TOTAL DE TRANSACCIONES:</label>
-              </div>
-
-
-            </div>
-
-            <div align="center">
-              <label for="start">*** FIN CORTE DEL EMPLEADO ***</label>
-            </div>
-
+            <div class="col-4">
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+              </form>
           </div>
-
-          <div id="elementH">
-
-          </div>
-
+          <div class="col-1">
+            <button class="btn btn-info my-2 my-sm-0" type="submit">Buscar</button>
+            <div class="col-md-5">
+                <label for="country" class="form-label">Sucursal</label>
+                <select class="form-select" id="country" required>
+                  <option value="">Elegir...</option>
+                  <option>Principal</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
+                </div>
+              </div>
+           </div>
         </div>
-      </div>  
-    </div>
+        </div>
+        <div class="box-body">
+            <div class="table table-reponsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>SELECT</th>
+                            <th>CÓDIGO</th>
+                            <th>USUARIO</th>
+                            <th>TURNO</th>
+                            <th>FECHA DEL CIERRE</th>
+                            <th>VENTA EN EFECTIVO</th>
+                            <th>VENTA DELIVERY</th>
+                            <th>TOTAL</th>
+                        <tr>
+                <th>
+                  <input type="checkbox" id="cbox1" value="checkbox">
+                </th>
+                        
+							  <td>1</td>
+                              <td>ADMIN</td>
+                              <td>MATUTINO</td>
+                              <td>01/08/2022</td>
+                              <td align="right">00.00</td>
+                              <td align="right">00.00</td>
+                              <td align="right">00.00</td>
+                        </tr>
+                      </thead>
+                    <tbody class="socios">
+                        
 
-	  <div id="Pie">
+                    </tbody>
+                </table>
+				<a href="../forms/Reporte_venta_cajero_generar"
+				<button type="button" class="btn btn-success">Generar Reporte</button>
+				</a>
+				<a href="../forms/Reporte_venta_cajero_Excel"
+                <button type="button" class="btn btn-secondary">Exportar Excel</button>
+				</a>
+				<a href="../forms/Reporte_venta_cajero_PDF"
+				<button type="button" class="btn btn-secondary">Exportar PDF</button>
+				</a>
+            </div>
+        </div>
+        
+    </div>
+	<div id="Pie">
 
     </div>
-  
-    
- 
 </main>
-
-
-    
-
-<script src="../js/sidebars.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
-</html>
