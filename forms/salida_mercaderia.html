@@ -9,6 +9,11 @@
     <title>Salida Mercaderia</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/Style.css">
+  <link rel="stylesheet" href="../css/popup_style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="../js/Master.js"></script>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sidebars/">
     
@@ -101,13 +106,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6">
-              <label for="ref_no" class="form-label">Ref No.:</label>
-              <input type="number" class="form-control" id="ref_no" placeholder="" value="Ref No." required>
-              <div class="invalid-feedback">
-                Valid last name is required.
-              </div>
-            </div>
+            
 
             <div class="col-sm-6">
               <label for="country" class="form-label">Centro: </label>
@@ -191,21 +190,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-4">
-                <label for="ref_no" class="form-label">Precio Unitario: </label>
-                <input type="number" class="form-control" id="ref_no" placeholder="" value="30.00" required>
-                <div class="invalid-feedback">
-                  Valid last name is required.
-                </div>
-              </div>
-
-              <div class="col-sm-4">
-                <label for="ref_no" class="form-label">Total: </label>
-                <input type="number" class="form-control" id="ref_no" placeholder="" value="1500.00" required>
-                <div class="invalid-feedback">
-                  Valid last name is required.
-                </div>
-              </div>
+              
 
 
 
@@ -273,6 +258,16 @@
       <a href="#">
         <button class="btn btn btn-danger" type="button">Cancelar</button>
       </a>  
+      <a href="#" class="click"><button type="button" class="btn btn-danger">Eliminar</button></a>
+    <div class="popup_box">
+      <i class="fas fa-exclamation"></i>
+      <h1>El registro que has seleccionado será eliminado</h1>
+      <label>¿Confirmar?</label>
+      <div class="btns">
+        <a href="#" class="btn1">Cancelar</a>
+        <a href="#" class="btn2">Eliminar</a>
+      </div>
+    </div>
 
 
       </div>
