@@ -59,6 +59,8 @@ function AgregarMenu(){
             '<li><a href="../forms/reporte_venta_categoria.html" class="link-dark d-inline-flex text-decoration-none rounded">Venta por categoria</a></li>'+
             '<li><a href="../forms/reporte_compras.html" class="link-dark d-inline-flex text-decoration-none rounded">Compras</a></li>'+
             '<li><a href="../forms/reporte_venta_categoria.html" class="link-dark d-inline-flex text-decoration-none rounded">Inventario por sucursal</a></li>'+
+            '<li><a href="../forms/reporte_arqueo_caja.html" class="link-dark d-inline-flex text-decoration-none rounded">Arqueo de Caja</a></li>'+
+            '<li><a href="../forms/reporte_desperdicios.html" class="link-dark d-inline-flex text-decoration-none rounded">Reporte de Desperdicios</a></li>'+
           '</ul>'+
         '</div>'+
       '</li>'+
