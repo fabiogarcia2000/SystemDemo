@@ -89,7 +89,7 @@
         <div class="consulta">
             <div class="row">
                 <div class="col-6">
-                    <h3>Reporte de Venta por Producto</h3>
+                    <h3>Venta por Producto</h3>
                 </div>
             </div>
         </div>
@@ -120,14 +120,6 @@
                 <input type="date" id="start" name="trip-start"
                     value="2022-08-05"
                     min="2022-01-01" max="2022-12-31">
-                
-                    
-				<button type="button" class="btn btn-success">Generar Reporte</button>
-
-                <button type="button" class="btn btn-secondary">Exportar Excel</button>
-
-                <button type="button" class="btn btn-secondary">Exportar PDF</button>
-
             </div>
 
 
@@ -152,8 +144,8 @@
                       <tr>
                           
                           <tr align="right">
-                              <th>ID_ARTICULO</th>
-                              <th>DESCIPCION</th>
+                              <th>CODIGO</th>
+                              <th>DESCRIPCION</th>
                               <th>CANTIDAD</th>
                               <th>PRECIO</th>
                               <th>TOTAL</th>
@@ -209,7 +201,15 @@
 
                   </tbody>
                 </table>
-
+                <a href="../forms/Reporte_venta_product_generar"
+                <button type="button" class="btn btn-success">Generar Reporte</button>
+                </a>
+                <a href="../forms/Reporte_venta_producto_Excell.html"
+                        <button type="button" class="btn btn-secondary">Exportar Excel</button>
+                </a>
+                <a href="../forms/Reporte_venta_producto_PDF"
+                <button type="button" class="btn btn-secondary">Exportar PDF</button>
+                </a>
             </div>
 
         </div>
