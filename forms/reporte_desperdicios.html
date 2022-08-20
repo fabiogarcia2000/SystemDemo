@@ -94,49 +94,145 @@
             </div>
         </div>
         <div class="box-body">
-            <div class="table table-reponsive">
+          <div class="table table-reponsive">
                 
 
-                <div class="col-md-5">
-                    <label for="country" class="form-label">Sucursal</label>
-                    <select class="form-select" id="country" required>
-                      <option value="">Elegir...</option>
-                      <option>Principal</option>
-                    </select>
-                    <div class="invalid-feedback">
-                      Please select a valid country.
-                    </div>
-                  </div>
+            <div class="col-md-5">
+                <label for="country" class="form-label">Sucursal</label>
+                <select class="form-select" id="country" required>
+                  <option value="">Elegir...</option>
+                  <option>Principal</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
+                </div>
+              </div>
 
 
-                <label for="start">Fecha Inicio:</label>
+            <div>  
+              <label for="start">Fecha Inicio:</label>
 
-                <input type="date" id="start" name="trip-start"
-                    value="2022-08-01"
-                    min="2022-01-01" max="2022-12-31">
+              <input type="date" id="start" name="trip-start"
+                  value="2022-08-01"
+                  min="2022-01-01" max="2022-12-31">
 
-                <label for="start">Fecha Fin:</label>
+              <label for="start">Fecha Fin:</label>
 
-                <input type="date" id="start" name="trip-start"
-                    value="2022-08-05"
-                    min="2022-01-01" max="2022-12-31">
+              <input type="date" id="start" name="trip-start"
+                  value="2022-08-05"
+                  min="2022-01-01" max="2022-12-31">
 
-                    
-                    
-                    <button type="button" class="btn btn-primary" target="_blank">Ver Datos</button>
-                    
+              <button type="button" class="btn btn-primary" target="_blank">Mostrar Desperdicios</button>    
 
-                    <a href="../reportes/reporte_desperdicio.htm"
-                    <button type="button" class="btn btn-success" target="_blank">Generar Reporte</button>
-                    </a>
-                    <a href="../forms/Reporte_venta_cat_Excel"
-                    <button type="button" class="btn btn-secondary">Exportar Excel</button>
-                    </a>
-                    <a href="../reportes/reporte_desperdicio.pdf"
-                    <button type="button" class="btn btn-secondary" target="_blank">Exportar PDF</button>
-                    </a>
-                    
             </div>
+
+            
+                
+          
+
+
+          <div align="center">
+              <label for="start">REPORTE DE DESPERDICIOS</label>
+          </div>
+
+
+          <div align="center">
+              <label for="start">SUCURSAL: PRINCIPAL</label>
+          </div>
+
+
+          <div align="center">
+              <label for="start">DEL 01/08/2022 AL 05/08/2022</label>
+          </div>
+
+
+              <table class="table table-reponsive">
+                <thead>
+                  <tr align="center">
+                    <th>CODIGO</th>
+                    <th>MATERIAL</th>
+                    <th>FECHA DEL CIERRE</th>
+                    <th>CANTIDAD</th>
+                    <th>PRECIO</th>
+                    <th>TOTAL</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td align="center">1</td>
+                    <td>MATERIAL1</td>
+                    <td>01/08/2022</td>
+                    <td align="right">5.00</td>
+                    <td align="right">60.00</td>
+                    <td align="right">300.00</td>
+                  </tr>
+
+                  <tr>
+                    <td align="center">1</td>
+                    <td>MATERIAL2</td>
+                    <td>02/08/2022</td>
+                    <td align="right">10.00</td>
+                    <td align="right">70.00</td>
+                    <td align="right">700.00</td>
+                  </tr>
+
+                  <tr>
+                    <td align="center">1</td>
+                    <td>MATERIAL3</td>
+                    <td>03/08/2022</td>
+                    <td align="right">15.00</td>
+                    <td align="right">50.00</td>
+                    <td align="right">750.00</td>
+                  </tr>
+
+                  <tr>
+                    <td align="center">1</td>
+                    <td>MATERIAL4</td>
+                    <td>04/08/2022</td>
+                    <td align="right">20.00</td>
+                    <td align="right">70.00</td>
+                    <td align="right">1,400.00</td>
+                  </tr>
+
+                  <tr>
+                    <td align="center">1</td>
+                    <td>MATERIAL5</td>
+                    <td>05/08/2022</td>
+                    <td align="right">25.00</td>
+                    <td align="right">60.00</td>
+                    <td align="right">1,500.00</td>
+                  </tr>
+
+                  <tr align="right">
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>TOTALES</th>
+                    <th>4,650.00</th>
+                  </tr>
+                </tbody>  
+              </table>
+
+        </div>
+
+        <div>
+
+              <a href="../reportes/reporte_desperdicio.htm"
+                <button type="button" class="btn btn-success" target="_blank">Generar Reporte</button>
+              </a>
+
+              <a href="../forms/Reporte_venta_resumen_Excel"
+                <button type="button" class="btn btn-secondary">Exportar Excel</button>
+              </a>
+              <a href="../reportes/reporte_desperdicio.pdf"
+                <button type="button" class="btn btn-secondary" target="_blank">Exportar PDF</button>
+              </a>
+
+
+
+        </div>
 
 
 
