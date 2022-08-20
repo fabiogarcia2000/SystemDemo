@@ -13,6 +13,27 @@
 
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     
+    <link rel="stylesheet" href="../css/Style.css">
+    <link rel="stylesheet" href="../css/popup_style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<!-- Pop Up Script -->
+<script>
+  $(document).ready(function(){
+    $('.click').click(function(){
+      $('.popup_box').css("display", "block");
+    });
+    $('.btn1').click(function(){
+      $('.popup_box').css("display", "none");
+    });
+    $('.btn2').click(function(){
+      $('.popup_box').css("display", "none");
+      alert("Registro Borrado Permanentemente.");
+    });
+  });
+</script>
+
         <style>
           .bd-placeholder-img {
             font-size: 1.125rem;
@@ -231,7 +252,16 @@
                         </a>
                       <a href="/Metd_pago_editar.html"><button class="btn btn-info" onclick="CargarSocio()" >Editar</button>
                       </a>
-                      <button class="btn btn-danger" onclick="EliminarSocio()" >Eliminar</button>
+                      <a href="#" class="click"><button type="button" class="btn btn-danger">Eliminar</button></a>
+                      <div class="popup_box">
+                        <i class="fas fa-exclamation"></i>
+                        <h1>El registro que has seleccionado será eliminado</h1>
+                        <label>¿Confirmar?</label>
+                        <div class="btns">
+                          <a href="#" class="btn1">Cancelar</a>
+                          <a href="#" class="btn2">Eliminar</a>
+                        </div>
+                      </div>
                         </td>   
                     </tbody>
                 </table>
